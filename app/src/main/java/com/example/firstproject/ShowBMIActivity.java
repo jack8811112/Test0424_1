@@ -19,7 +19,7 @@ public class ShowBMIActivity extends AppCompatActivity {
         setContentView(R.layout.activity_showbmi2);
 
         TextView show_name = (TextView) findViewById(R.id.tv_name);
-        ImageView view1 = (ImageView) findViewById(R.id.iv_pic);
+        ImageView view1 = (ImageView) findViewById(R.id.iv_show);
         TextView show_bmi = (TextView) findViewById(R.id.tv_bmi);
 
 
@@ -43,7 +43,7 @@ public class ShowBMIActivity extends AppCompatActivity {
         else if(bmi<=18.5){
             msg=getString(R.string.strtoolow);
             // Toast.makeText(this, "Your weight is underweight", Toast.LENGTH_SHORT).show();
-            view1.setImageResource(R.drawable.b1);
+            view1.setImageResource(R.drawable.b2);
         }
         else{
             msg=getString(R.string.strfit);

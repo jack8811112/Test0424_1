@@ -63,8 +63,8 @@ public class MainActivity extends AppCompatActivity {
         s.setText(name.getText().toString() + ", welcome." + "\n" +"Your BMI is " + df.format(bmi) + "\n" + msg);
     }
 
-    public void nextPage(View view) {
         Bundle bundle = new Bundle();
+            public void nextPage(View view) {
         bundle.putString("height",height.getText().toString());
         bundle.putString("weight",weight.getText().toString());
         bundle.putString("name",name.getText().toString());
