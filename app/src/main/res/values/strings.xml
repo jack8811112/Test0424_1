@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">First Project</string>
+    <string name="strname">Full Name</string>
+    <string name="strheight">Height</string>
+    <string name="strweight">Weight</string>
+    <string name="strnextpage">Next Page</string>
+    <string name="strsubmit">Submit</string>
+    <string name="strshowbmi">\"Your BMI is \"</string>
+    <string name="strtoohigh">Your weight is overweight</string>
+    <string name="strtoolow">Your weight is underweight</string>
+    <string name="strfit">Your weight is moderate</string>
+</resources>
